@@ -1,0 +1,22 @@
+body{
+    background: #c2c2c2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 10px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+}
+
+img:hover{
+    transform: scale(1.1);
+    right: 10px;
+}
